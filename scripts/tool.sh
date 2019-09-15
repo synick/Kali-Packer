@@ -30,3 +30,4 @@ git clone https://github.com/OJ/gobuster.git
 
 pip install -r ./Shr3dKit/requirements.txt
 bash ./Shr3dKit/shr3dkit.sh
+
