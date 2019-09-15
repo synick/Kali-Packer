@@ -1,2 +1,2 @@
-# Kali-Packer
- Kali virtual machine built with Packer and Vagrant
+# Kali with Packer
+
