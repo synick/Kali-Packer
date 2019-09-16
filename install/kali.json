@@ -57,6 +57,7 @@
             "{{user `scripts_dir`}}/vagrant.sh",
             "{{user `scripts_dir`}}/networking.sh",
             "{{user `scripts_dir`}}/virtualbox.sh",
+            "{{user `scripts_dir`}}/tools.sh",
             "{{user `scripts_dir`}}/minimize.sh"
         ],
         "type":"shell"
