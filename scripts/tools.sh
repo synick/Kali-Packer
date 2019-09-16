@@ -12,7 +12,7 @@ apt-get install -y ftp apache2 python-requests libapache2-mod-php python-pymssql
 mkdir ~/git
 cd ~/git
 git clone https://github.com/trinitronx/vncpasswd.py.git
-git clone https://github.com/shr3ddersec/Shr3dKit.git
+git clone https://github.com/synick/Shr3dKit.git
 git clone https://github.com/PowerShellMafia/PowerSploit.git
 git clone https://github.com/csababarta/ntdsxtract.git
 git clone https://github.com/nccgroup/cisco-SNMP-enumeration.git
@@ -27,7 +27,7 @@ git clone https://github.com/OJ/gobuster.git
 
 
 # Run some things post git clones
-
+## Using synick repo as there are a few errors with Shr3dKit - waiting on pull request (https://github.com/shr3ddersec/Shr3dKit/pull/7/commits/ab5f2d67adf45e2f5b2d52db61e1ea53bf1e7e2d)
 pip install -r ./Shr3dKit/requirements.txt
 bash ./Shr3dKit/shr3dkit.sh
 
