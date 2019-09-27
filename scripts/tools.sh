@@ -5,6 +5,7 @@
 # Setup folders
 
 # Install common tools
+export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get install -y ftp apache2 python-requests libapache2-mod-php python-pymssql  build-essential dkms xxd bloodhound ftp hostapd xnest nfs-common pkg-config libnl-genl-3-dev python-pexpect python-pefile python-crypto python-openssl libssl1.0-dev libffi-dev python-dev python-pip tcpdump python-virtualenv build-essential cmake libgtk-3-dev libboost-all-dev libx11-dev libatlas-base-dev libboost-python-dev pkg-config
 
@@ -30,4 +31,3 @@ git clone https://github.com/OJ/gobuster.git
 ## Using synick repo as there are a few errors with Shr3dKit - waiting on pull request (https://github.com/shr3ddersec/Shr3dKit/pull/7/commits/ab5f2d67adf45e2f5b2d52db61e1ea53bf1e7e2d)
 pip install -r ./Shr3dKit/requirements.txt
 bash ./Shr3dKit/shr3dkit.sh
-
